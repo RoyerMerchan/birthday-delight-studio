@@ -58,11 +58,16 @@ const Index = () => {
                 animate={{ opacity: 1, y: 0, scale: 1 }}
                 transition={{ delay: 0.6, type: "spring", bounce: 0.5 }}
               >
-                ¡Felices 22!
+
+                  ¡22 añitoss!
               </motion.h1>
 
               {/* Polaroid */}
-              <PolaroidFrame />
+              <PolaroidFrame
+                imageSrc="/foto1.jpeg"
+                imageAlt="Recuerdo especial"
+                caption="...❤️‍🩹​✨"
+              />
 
               {/* Message */}
               <motion.div
@@ -72,10 +77,8 @@ const Index = () => {
                 transition={{ delay: 1.2, duration: 0.6 }}
               >
                 <p className="font-handwritten text-xl sm:text-2xl text-foreground leading-relaxed text-center">
-                  Hoy celebramos la magia que traes al mundo. 
-                  Que este nuevo año de vida esté lleno de sueños cumplidos, 
-                  risas infinitas y momentos que te hagan el corazón grande. 
-                  ¡Eres increíble y mereces todo lo bonito! 🎂💖
+                  En tu dia especial quise hacerte este detalle para tu,,,, un pequeño recordatorio de lo especial que eres para mi, 
+                  que cumplas muchos masss y que seas feli siempre princesa, FELIZ CUMPLEEEE 🎂💖
                 </p>
               </motion.div>
 
